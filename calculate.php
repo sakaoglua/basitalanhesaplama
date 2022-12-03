@@ -35,17 +35,17 @@ class Kare extends Calculate{
     }
 }
 $hesapD = new Dikdortgen();
-echo $hesapD->AlanD(5, 10);
+echo "Dikdörtgenin alanı: ".$hesapD->AlanD(5, 10);
 echo "<br>";
-echo $hesapD->CevreD(5,10);
+echo "Dikdörtgenin çevresi: ".$hesapD->CevreD(5,10);
 echo "<br>";
 $hesapU = new Ucgen();
-echo $hesapU->AlanU(12, 2);
+echo "Üçgenin alanı: ".$hesapU->AlanU(12, 2);
 echo "<br>";
-echo $hesapU->CevreU(3, 4, 5);
+echo "Üçgenin çevresi: ".$hesapU->CevreU(3, 4, 5);
 echo "<br>";
 $hesapK = new Kare();
-echo $hesapK->AlanK(5);
+echo "Karenin alanı: ".$hesapK->AlanK(5);
 echo "<br>";
-echo $hesapK->CevreK(5);
+echo "Karenin çevresi: ".$hesapK->CevreK(5);
 ?>
